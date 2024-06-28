@@ -30,4 +30,7 @@ This list of books represents how much I have read and as such, how much informa
 **Mistborn Trilogy (Era 1):**
 1. The Final Empire
 
+## Why Re-Invent the Wheel?
+
+The main reason is spoilers. I do not intend nor am I crazy enough to even think about competing or contesting against Coppermind or any of the other great wikis out there. This is just for myself since I am not particularly the type of person to take written notes or highlight things (I would highlight entire paragraphs at this rate). If you are looking for a comprehensive wiki, please consider the Coppermind wiki.
 
