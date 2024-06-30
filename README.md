@@ -38,3 +38,7 @@ Please ensure you have Python installed. I personally am using Python 3.10, but 
 
 To execute, simply run `main.py`!
 
+## Got Questions or Remarks?
+
+This program also serves as a way for me to showcase my coding and my flexibility in terms of libraries used. This is my first formal project using PyQt5, so I will appreciate any advice or suggestions you may have. I code as a hobby, but I do try to stick to best practices whenever possible, so I am happy to learn whenever I can! For any sort of questions, remarks, suggestions, etc., please email me at anthony.ha.pham@tamu.edu!
+
