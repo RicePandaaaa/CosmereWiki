@@ -3,9 +3,7 @@
 **This is a fan project and is not affiliated with Brandon Sanderson, Dragonsteel Entertainment, Dragonsteel Works, or any of their affiliates. All information presented here is paraphrased in my own words, and all sources are cited in the format of book title and chapter number. This is a personal, non-commercial project created with no intention of distribution for direct or indirect monetary compensation.**
 
 ## License
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
-
-[![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
 
 ## CosmereWiki
 
