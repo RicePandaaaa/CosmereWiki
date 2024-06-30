@@ -32,3 +32,9 @@ This list of books represents how much I have read and as such, how much informa
 
 The main reason is spoilers. I do not intend nor am I crazy enough to even think about competing or contesting against Coppermind or any of the other great wikis out there. This is just for myself since I am not particularly the type of person to take written notes or highlight things (I would highlight entire paragraphs at this rate). If you are looking for a comprehensive wiki, please consider the Coppermind wiki.
 
+## Installation and Execution
+
+Please ensure you have Python installed. I personally am using Python 3.10, but I believe that any newer version should still be compatible (in case you already have a version installed). For now, the only external library that I use are `PyQt5` and `pyqt5-tools`, which can simply be installed with `pip install PyQt5` and `pip install pyqt5-tools` respectively. I do not use any custom fonts, so the base library installs for those two should be sufficient.
+
+To execute, simply run `main.py`!
+
