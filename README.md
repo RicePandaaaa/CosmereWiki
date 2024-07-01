@@ -34,11 +34,11 @@ The main reason is spoilers. I do not intend nor am I crazy enough to even think
 
 ## Installation and Execution
 
-Please ensure you have Python installed. I personally am using Python 3.10, but I believe that any newer version should still be compatible (in case you already have a version installed). For now, the only external library that I use are `PyQt5` and `pyqt5-tools`, which can simply be installed with `pip install PyQt5` and `pip install pyqt5-tools` respectively. I do not use any custom fonts, so the base library installs for those two should be sufficient.
+Please ensure you have Python installed. I personally am using Python 3.10, but I believe that any newer version should still be compatible (in case you already have a version installed). For now, the only external library that I use are `PyQt6` and `pyqt6-tools`, which can simply be installed with `pip install PyQt6` and `pip install pyqt6-tools` respectively. I do not use any custom fonts, so the base library installs for those two should be sufficient.
 
 To execute, simply run `main.py`!
 
 ## Got Questions or Remarks?
 
-This program also serves as a way for me to showcase my coding and my flexibility in terms of libraries used. This is my first formal project using PyQt5, so I will appreciate any advice or suggestions you may have. I code as a hobby, but I do try to stick to best practices whenever possible, so I am happy to learn whenever I can! For any sort of questions, remarks, suggestions, etc., please email me at anthony.ha.pham@tamu.edu!
+This program also serves as a way for me to showcase my coding and my flexibility in terms of libraries used. This is my first formal project using PyQt6, so I will appreciate any advice or suggestions you may have. I code as a hobby, but I do try to stick to best practices whenever possible, so I am happy to learn whenever I can! For any sort of questions, remarks, suggestions, etc., please email me at anthony.ha.pham@tamu.edu!
 
