@@ -1,6 +1,6 @@
 from DataTypes import character, item, material
-from PyQt5 import uic
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt6 import uic
+from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QScrollArea
 
 import csv, os, sys
 
@@ -29,6 +29,9 @@ class MainWindow(QMainWindow):
         self.Steel.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Steel"))
         self.Tin.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Tin"))
         self.Zinc.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Zinc"))
+        
+        # Ensure the scroll area is set up correctly
+        self.allo_metals_scroll.setWidgetResizable(True)
 
     def init_mats(self):
         # Directory information
@@ -77,8 +80,8 @@ def main():
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
-    sys.exit(app.exec_())
-
+    sys.exit(app.exec())
+    
 
 if __name__ == "__main__":
     main()
