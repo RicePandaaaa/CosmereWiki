@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="mainPage">
      <widget class="QLabel" name="wikiname">
@@ -40,7 +40,6 @@
        <font>
         <family>Trebuchet MS</family>
         <pointsize>26</pointsize>
-        <weight>75</weight>
         <bold>true</bold>
        </font>
       </property>
@@ -70,9 +69,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>60</y>
+        <y>70</y>
         <width>301</width>
-        <height>91</height>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -89,9 +88,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>260</y>
+        <y>310</y>
         <width>301</width>
-        <height>91</height>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -108,9 +107,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>160</y>
+        <y>150</y>
         <width>301</width>
-        <height>91</height>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -127,9 +126,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>360</y>
+        <y>390</y>
         <width>301</width>
-        <height>91</height>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -146,9 +145,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>460</y>
+        <y>470</y>
         <width>301</width>
-        <height>91</height>
+        <height>71</height>
        </rect>
       </property>
       <property name="font">
@@ -223,10 +222,297 @@
        <number>10</number>
       </property>
      </widget>
+     <widget class="QPushButton" name="speciesButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>230</y>
+        <width>301</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Species</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="books"/>
+    <widget class="QWidget" name="books">
+     <widget class="QPushButton" name="booksHomeButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Home</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="chooseBookLabel">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>541</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string>Choose a book series!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stormlightButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>The Stormlight Archive</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="eraOneButton">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>100</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mistborn: Original Trilogy (Era 1)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="eraTwoButton">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>100</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Mistborn: The Wax and Wayne Series (Era 2)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="arcanumButton">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>310</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Arcanum Unbounded</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="uncategorizedButton">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>310</y>
+        <width>231</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Uncategorized Novels</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="stormlightLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>231</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="eraOneLabel">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>150</y>
+        <width>231</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="eraTwoLabel">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>150</y>
+        <width>231</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="uncategorizedLabel">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>360</y>
+        <width>231</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="arcanumLabel">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>360</y>
+        <width>231</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Trebuchet MS</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
     <widget class="QWidget" name="items">
-     <widget class="QLabel" name="item_title_label">
+     <widget class="QLabel" name="itemTitleLabel">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -254,13 +540,13 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="items_home_button">
+     <widget class="QPushButton" name="itemHomeButton">
       <property name="geometry">
        <rect>
         <x>10</x>
         <y>20</y>
         <width>231</width>
-        <height>50</height>
+        <height>61</height>
        </rect>
       </property>
       <property name="font">
@@ -273,7 +559,7 @@
        <string>Home</string>
       </property>
      </widget>
-     <widget class="QScrollArea" name="item_text_scroll">
+     <widget class="QScrollArea" name="itemTextScroll">
       <property name="geometry">
        <rect>
         <x>250</x>
@@ -294,18 +580,18 @@
       <property name="widgetResizable">
        <bool>true</bool>
       </property>
-      <widget class="QWidget" name="item_text_scroll_contents">
+      <widget class="QWidget" name="itemTextContents">
        <property name="geometry">
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>526</width>
-         <height>2164</height>
+         <width>539</width>
+         <height>469</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
-         <widget class="QLabel" name="item_description">
+         <widget class="QLabel" name="itemDescription">
           <property name="font">
            <font>
             <family>Trebuchet MS</family>
@@ -322,7 +608,7 @@
            <number>2</number>
           </property>
           <property name="text">
-           <string>Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! Select a metal from the left to see its information! </string>
+           <string/>
           </property>
           <property name="scaledContents">
            <bool>false</bool>
@@ -341,7 +627,7 @@
        </layout>
       </widget>
      </widget>
-     <widget class="QScrollArea" name="item_button_scroll">
+     <widget class="QScrollArea" name="itemButtonScroll">
       <property name="geometry">
        <rect>
         <x>10</x>
@@ -353,7 +639,7 @@
       <property name="widgetResizable">
        <bool>true</bool>
       </property>
-      <widget class="QWidget" name="item_button_scroll_contents">
+      <widget class="QWidget" name="itemButtonContents">
        <property name="geometry">
         <rect>
          <x>0</x>
