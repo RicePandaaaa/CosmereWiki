@@ -1,6 +1,6 @@
 from DataTypes import character, item, material
 from PyQt6 import uic
-from PyQt6.QtWidgets import QApplication, QMainWindow, QLabel, QScrollArea
+from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QScrollArea
 
 import csv, os, sys
 
@@ -13,27 +13,29 @@ class MainWindow(QMainWindow):
 
         # Initialize the data
         self.materials = {}
-
         self.init_mats()
+        self.page_indices = {"mainPage": 0, "books": 1, "items": 2}
+
+        # Variables to filter data
+        self.category = None
+        self.series = None
 
         # Connect home page buttons to appropriate functions
-        self.matsButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(1))
+        self.booksHomeButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["mainPage"]))
+        self.itemHomeButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["mainPage"]))
 
-        # Connect allomancy basic metals to appropriate functions
-        self.allo_metals_home.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(0))
-        self.Brass.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Brass"))
-        self.Bronze.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Bronze"))
-        self.Copper.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Copper"))
-        self.Iron.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Iron"))
-        self.Pewter.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Pewter"))
-        self.Steel.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Steel"))
-        self.Tin.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Tin"))
-        self.Zinc.clicked.connect(lambda: self.load_mat_data(self.allo_metals_text, "Zinc"))
-        
-        # Ensure the scroll area is set up correctly
-        self.allo_metals_scroll.setWidgetResizable(True)
+        self.charButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["books"]))
+        self.matsButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["books"]))
+        self.speciesButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["books"]))
+        self.itemsButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["books"]))
+        self.keyTermsButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["books"]))
+        self.plotsButton.clicked.connect(lambda: self.stackedWidget.setCurrentIndex(self.page_indices["books"]))
 
+    
     def init_mats(self):
+        """
+        Parse all the data and prepare the QPushButtons
+        """
         # Directory information
         mats_directory = "_Materials/"
 
@@ -41,6 +43,11 @@ class MainWindow(QMainWindow):
         for mat_root, _, mat_file_names in os.walk(mats_directory):
             # Search for csv files
             for mat_file_name in mat_file_names:
+                # Add material category
+                category = mat_root.split("/")[-1]
+                if category not in self.materials:
+                    self.materials[category] = {}
+
                 if mat_file_name.endswith('.csv'):
                     file_path = os.path.join(mat_root, mat_file_name)
 
@@ -53,9 +60,13 @@ class MainWindow(QMainWindow):
                         for row in reader:
                             if row[0] == "name":
                                 mat_name = row[1]
-                                self.materials[mat_name] = {}
+                                self.materials[category][mat_name] = {}
                                 
-                            self.materials[mat_name][row[0]] = row[1]
+                            self.materials[category][mat_name][row[0]] = row[1]
+
+    def make_material_buttons(self):
+        pass
+
 
     def load_mat_data(self, text_label, mat_name):
         """
