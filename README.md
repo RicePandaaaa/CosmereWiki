@@ -1,10 +1,3 @@
-## Disclaimer 
-
-**This is a fan project and is not affiliated with Brandon Sanderson, Dragonsteel Entertainment, Dragonsteel Works, or any of their affiliates. All information presented here is paraphrased in my own words, and all sources are cited in the format of book title and chapter number. This is a personal, non-commercial project created with no intention of distribution for direct or indirect monetary compensation.**
-
-## License
-This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
-
 ## CosmereWiki
 
 The un-creatively named "CosmereWiki" is unsurprisingly a wiki made for the Cosmere universe. This serves as a personal wiki for me to refer to so I can easily access information about certain terms, events, people, etc. without having to dig through the thousands of pages for the info. 
@@ -42,3 +35,9 @@ To execute, simply run `main.py`!
 
 This program also serves as a way for me to showcase my coding and my flexibility in terms of libraries used. This is my first formal project using PyQt6, so I will appreciate any advice or suggestions you may have. I code as a hobby, but I do try to stick to best practices whenever possible, so I am happy to learn whenever I can! For any sort of questions, remarks, suggestions, etc., please email me at anthony.ha.pham@tamu.edu!
 
+## Disclaimer 
+
+**This is a fan project and is not affiliated with Brandon Sanderson, Dragonsteel Entertainment, Dragonsteel Works, or any of their affiliates. All information presented here is paraphrased in my own words, and all sources are cited in the format of book title and chapter number. Due to the unique nature of the Cosmere universe, it is necessary to use certain terms and names (e.g., specific characters, locations, and magical systems) that are integral to the understanding of the content. These terms are used solely for reference purposes. This is a personal, non-commercial project created with no intention of distribution for direct or indirect monetary compensation.**
+
+## License
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for more details.
