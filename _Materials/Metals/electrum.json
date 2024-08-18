@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "See own future",
+        "feruchemical": "Stores determination",
+        "hemalurgy": "Steals enhancement allomancy"
+    },
+
+    "users": {
+        "allomancer": "Oracle",
+        "ferring": "Pinnacle"
+    },
+
+    "properties": {
+        "metal type": "Basic 16",
+        "paired metal": "gold",
+        "composition": "45% gold, 55% silver"
+    },
+
+    "notes:": "Electrum has only really made an entrace in Hero of Ages (used notably by Vin and mentioned primarily as a counter to Atium). Fighting with  electrum allows one to foresee their own future, which means they can see the same thing as an opposing Atium user. These futures are in the form of shadows, and the number of shadows can be increased. To my knowledge, electrum has never been explicitedly used in the contexts of feruchemy and hemalurgy.",
+
+    "sources": ["Ars Arcanum", "Hero of Ages, Chapter 31"]
+}

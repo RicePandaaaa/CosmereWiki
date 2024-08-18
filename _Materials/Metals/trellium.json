@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "??",
+        "feruchemical": "??",
+        "hemalurgy": "??"
+    },
+
+    "users": {
+        "allomancer": "??",
+        "ferring": "??"
+    },
+
+    "properties": {
+        "metal type": "God",
+        "paired metal": "Harmonium?",
+        "composition": "Investiture from Autonomy"
+    },
+
+    "notes:": "Trellium can be used to splut harmonium into small amounts of atium and lerasium. It is also weirdly repelled by certain forms of Investiture, where the behavior reflects magnetism. Trellium acquires its name from Trell, the avatar for Autonomy.",
+
+    "sources": ["Ars Arcanum", "The Lost Metal, Chapter 15", "The Lost Metal, Chapter 71", "The Lost Metal, Epilogue 4"]
+}

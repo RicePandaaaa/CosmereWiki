@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "Destroys target's allomantic reserves",
+        "feruchemical": "Stores fortune",
+        "hemalurgy": "Might steal destiny"
+    },
+
+    "users": {
+        "allomancer": "Leecher",
+        "ferring": "Spinner"
+    },
+
+    "properties": {
+        "metal type": "Basic 16",
+        "paired metal": "nicrosil",
+        "composition": "pure chromium"
+    },
+
+    "notes:": "Leechers typically require physical touch to actually destroy the allomantic reservers (although the range can be extended by other means such a very special cube). Fortune explicitly can be stored to be tapped into as a luck source, but I am curious how lucky you can be. To an extent, could you theoretically force a future by tapping enough fortune? Also stealing destiny is interesting especially as this is not even guarenteed (highlighted by the\"might\").",
+
+    "sources": ["Ars Arcanum", "The Bands of Mourning, Chapter 17"]
+}

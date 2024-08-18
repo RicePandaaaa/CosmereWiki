@@ -20,6 +20,28 @@ This list of books represents how much I have read and as such, how much informa
 
 **Mistborn Trilogy (Era 1):**
 1. The Final Empire
+2. Well of Ascension
+3. The Hero of Ages
+
+**Mistborn: The Wax and Wayne Series (Era 2):**
+1. Alloy of Law
+2. Shadows of Self
+3. The Bands of Mourning
+4. The Lost Metal
+
+**Books not in a series:**
+1. Elantris
+2. Warbreaker
+
+**Arcanum Unbounded:**
+1. The Emperor's Soul
+2. The Hope of Elantris
+3. The Eleventh Metal
+4. Allomancer Jak and the Pits of Eltania, Episodes 28 Through 30
+5. Mistborn: Secret History
+6. White Sand
+7. Shadows for Silence in the Forests of Hell
+8. Sixth of the Dusk
 
 ## Why Re-Invent the Wheel?
 

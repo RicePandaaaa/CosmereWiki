@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "Grants Mistborn status",
+        "feruchemical": "??",
+        "hemalurgy": "Steals all abilities"
+    },
+
+    "users": {
+        "allomancer": "??",
+        "ferring": "??"
+    },
+
+    "properties": {
+        "metal type": "God",
+        "paired metal": "Atium",
+        "composition": "Investiture from Preservation"
+    },
+
+    "notes:": "Lerasium grants the power to become a Mistborn (access to all Allomantic abilities). There doesn't seem to be more details of how Lerasium works exactly. Stealing all abilities does seem to be a vague description of what a Lerasium spike does however. I know that Hemalurgy loses power during the transferring process, so does this mean that the spike transfers just a bit of everything? So essentially one would be a mini Mistborn?",
+
+    "sources": ["Ars Arcanum"]
+}

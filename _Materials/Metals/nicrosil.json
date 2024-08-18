@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "Enhances target's next metal burned",
+        "feruchemical": "Stores Investiture",
+        "hemalurgy": "Steals Investiture"
+    },
+
+    "users": {
+        "allomancer": "Gnats",
+        "ferring": "Connector"
+    },
+
+    "properties": {
+        "metal type": "Basic 16",
+        "paired metal": "Chromium",
+        "composition": "Chromium alloy"
+    },
+
+    "notes:": "",
+
+    "sources": ["Ars Arcanum", "Mistborn (collectively)"]
+}

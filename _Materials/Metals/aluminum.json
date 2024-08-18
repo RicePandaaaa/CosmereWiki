@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "Destroys allomantic reserves",
+        "feruchemical": "Stores identity",
+        "hemalurgy": "Removes all power"
+    },
+
+    "users": {
+        "allomancer": "Gnat",
+        "ferring": "Trueself"
+    },
+
+    "properties": {
+        "metal type": "Basic 16",
+        "paired metal": "duralumin",
+        "composition": "pure aluminum"
+    },
+
+    "notes:": "Aluminum is great for countering allomancy: it is inert and unable to be affected by physical allomancy (push/pull) and can help stop emotional allomancy (such as Rioting). Though aluminum was a highly sought after resource, recent advancements into electrolysis have increased aluminum production (and made Wayne a very rich man). It has been used defensively to counteract allomancers but also offensively to negate defensive abilities.\n\nIn reality, aluminum is a versatile metal used for several reasons, such as being lightweight, ductile, resistant, non-magnetic, and sturdy.\n\nI should note that as allomancy is one of the three manifestations of investiture, this should imply that aluminum is a resistor of investiture. For reasons unknown, it does store Identity, allowing for the usage of metalminds (notably Bands of Mourning) by anyone.",
+
+    "sources": ["Ars Arcanum", "The Lost Metal, Chapter 40", "The Bands of Mourning"]
+}

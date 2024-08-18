@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "Enhances the next metal burned",
+        "feruchemical": "Stores connection",
+        "hemalurgy": "Steals connection and identity"
+    },
+
+    "users": {
+        "allomancer": "Gnats",
+        "ferring": "Connector"
+    },
+
+    "properties": {
+        "metal type": "Basic 16",
+        "paired metal": "Aluminum",
+        "composition": "Aluminum alloy"
+    },
+
+    "notes:": "Duralumin has been used several times throughout the Mistborn series (both eras) to enhance an Allomantic ability, notably Pushes, at least from what I can remember. Interestingly, duralumin can be used to store Connection with the cost being loss of friendship and trust. However, tapping into this allows very quick formation of relationships. I suppose that people's actions and intents can be enhanced through friendship and human bond, so this makes sense to me personally but perhaps is just a coincidence.\n\nDuralumin in real life is an aluminum alloy often used in the aviation industry. How this relates to duralumin in universe is unknown to me. Perhaps Sanderson liked the name.",
+
+    "sources": ["Ars Arcanum", "Mistborn (collectively)"]
+}

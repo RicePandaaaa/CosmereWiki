@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "Pulls on nearby metals",
+        "feruchemical": "Stores physical weight",
+        "hemalurgy": "Steals strength"
+    },
+
+    "users": {
+        "allomancer": "Lurcher",
+        "ferring": "Skimmer"
+    },
+
+    "properties": {
+        "metal type": "Basic 16",
+        "paired metal": "steel",
+        "composition": "pure iron"
+    },
+
+    "notes:": "Lurchers pull metals towards them if the target is lighter, otherwise, they pull themselves to the target. Skimmers can store weight in their bands, reducing their actual weight, and able to increase their weight by drawing from the bands. However, this seems to be increasing the mass of the person rather than the effect of gravity on the person itself.\n\nIn real life, iron is a naturally occuring element. There does not seem to be a clear correlation of iron in-universe and iron in-reality outside of potentially its magnetic behavior (pull).",
+
+    "sources": ["Ars Arcanum"]
+}

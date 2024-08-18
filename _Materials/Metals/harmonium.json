@@ -1,0 +1,22 @@
+{
+    "powers": {
+        "allomancy": "??",
+        "feruchemical": "??",
+        "hemalurgy": "??"
+    },
+
+    "users": {
+        "allomancer": "??",
+        "ferring": "??"
+    },
+
+    "properties": {
+        "metal type": "God",
+        "paired metal": "Trellium?",
+        "composition": "Investiture from Harmony"
+    },
+
+    "notes:": "Harmonium consists of Ruin and Preservation together, bounded together by something, presumably some equivalent to the strong force. When heated with an electric current, the metal tends to spread out in two directions, one favoring lerasium and the other favoring atium. It should be noted that such a split happen, both smaller globs are still harmonium. Personally, this is rather weird as this implies that sufficient atium and lerasium are in both globs to remain in equilibrium. Perhaps the separation is purely external: the lerasium rise to the top on one side and the atium rise to the top of the other side, creating the illusion of the true separation of the two. In fact, it is only when Harmonium is split with Trellium that byproducts of atium and lerasium are made.\n\nWhen Trellium is involved, the separation into atium and lerasium also includes an extremely large explosion of energy. This interaction mimics nuclear fission. It can be seen that the presence of Trellium is sufficient to split Harmonium apart into its fundamental metals, which is similar to how the inclusion of an extra neutron can split an atom quite dramatically. Of course this analogy is not entirely accurate as the primary nucleus splits into two smaller ones, rather than the complete separation of protons and neutrons.\n\nRegardless of what real-life physical phenomenon best reflects Harmonium's explosion, it is undeniable that there exists some force that binds Investiture together. The release of this force, or even the overpowering of this force, enables the stored energy to release.\n\nFurthernote that Harmonium is in fact not an alloy! As mentioned earlier, lerasium and atium are being held together by something (the exact cause is not known). An alternate name to Harmonium is ettmetal. If you store a lot of harmonium in one place then you get a portal (perhaps a perpendicularity?).",
+
+    "sources": ["Ars Arcanum", "The Lost Metal, Chapter 15", "The Lost Metal, Chapter 59", "The Lost Metal, Chapter 71", "The Lost Metal, Epilogue 4"]
+}
